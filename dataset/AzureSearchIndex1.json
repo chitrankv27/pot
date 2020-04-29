@@ -9,7 +9,8 @@
 		"type": "AzureSearchIndex",
 		"schema": [],
 		"typeProperties": {
-			"indexName": "customer"
+			"indexName": "customer",
+			"api-version": "2019-05-06"
 		}
 	},
 	"type": "Microsoft.DataFactory/factories/datasets"
