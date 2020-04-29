@@ -1,0 +1,44 @@
+{
+	"name": "SqlServerTable1",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "SqlServerCDOTest",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "SqlServerTable",
+		"schema": [
+			{
+				"name": "AttributeList",
+				"type": "varchar"
+			},
+			{
+				"name": "AttributeCount",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "RowCountOutput",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "TableName",
+				"type": "varchar"
+			},
+			{
+				"name": "ID",
+				"type": "bigint",
+				"precision": 19
+			},
+			{
+				"name": "DBName",
+				"type": "varchar"
+			}
+		],
+		"typeProperties": {
+			"schema": "dbo",
+			"table": "EDLMaster"
+		}
+	}
+}
