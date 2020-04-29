@@ -1,0 +1,14 @@
+{
+	"name": "AzureSearch1",
+	"type": "Microsoft.DataFactory/factories/linkedservices",
+	"properties": {
+		"annotations": [
+			"api-version=2019-05-06"
+		],
+		"type": "AzureSearch",
+		"typeProperties": {
+			"url": "https://manulifecustomersearch.search.windows.net",
+			"encryptedCredential": "ew0KICAiVmVyc2lvbiI6ICIyMDE3LTExLTMwIiwNCiAgIlByb3RlY3Rpb25Nb2RlIjogIktleSIsDQogICJTZWNyZXRDb250ZW50VHlwZSI6ICJQbGFpbnRleHQiLA0KICAiQ3JlZGVudGlhbElkIjogIkNERVBMREVBREZfMGE0MTJkNGMtNzkzNC00NzVhLTgzZDktMzhlYWY5NTRlMTViIg0KfQ=="
+		}
+	}
+}
